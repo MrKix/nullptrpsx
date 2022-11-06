@@ -144,4 +144,17 @@ for this perfect obfuscation!
 
 --Boronide™ Premium Obfuscation, v0.4.3 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/loader'))()
+local Finity = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter/Cum-Hub/main/UI%20Lib"))()
+local FinityWindow = Finity.new(true)
+Finity.settitle("nullptr* | MS2 | https://discord.gg/stEatQ7z9c")
+local Home = FinityWindow:Category("Home")
+
+local Info = Home:Sector("Mining Simulator 2")
+Info:Cheat("Label", "you using an outdated version")
+Info:Cheat("Label", "Ты используешь устаревшую версию")
+Info:Cheat("Label", "The new version is in the discord server")
+Info:Cheat("Label", "Новая версия находится в дискорд сервере")
+Info:Cheat("Label", "https://discord.gg/stEatQ7z9c")
+Info:Cheat("Button", "Copy Invite", function()
+    setclipboard("https://discord.gg/stEatQ7z9c")
+end)
